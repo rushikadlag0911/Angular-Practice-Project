@@ -1,0 +1,9 @@
+<ul>
+  <li *ngFor="let individualUserName of names">
+    <app-user-item [name]="individualUserName"></app-user-item>
+  </li>
+
+  <li *ngFor="let eachage of ages">
+    <app-user-item [age]="eachage"></app-user-item>
+  </li>
+</ul>
